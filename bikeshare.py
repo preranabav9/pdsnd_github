@@ -50,7 +50,7 @@ def get_filters():
     return city, month, day
 
 
-def load_data(city, month, day):
+def load_data(city, month, day): 
     """
     Loads data for the specified city and filters by month and day if applicable.
 
@@ -210,7 +210,7 @@ def user_stats(df):
     print('-'*40)
     
     
-def disp_data(df):
+def disp_data(df):   #this function will display the info of 5 people and ask or next 5.
     head=0
     tail=5
     user_choise = input('\n Do you want to see the data of the trip? reply with "yes" or "no"\n')
