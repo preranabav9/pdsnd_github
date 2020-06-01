@@ -185,7 +185,7 @@ def user_stats(df):
       gender_types = df['Gender'].value_counts()
       print('\nGender Types:\n', gender_types)
     except KeyError:
-      print("\nGender Types:\nNo data available for this month.")
+      print("\nGender Types is :\nNo data available for this month.")
 
     # TO DO: Display earliest, most recent, and most common year of birth
 
